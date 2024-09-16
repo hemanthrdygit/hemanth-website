@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont{
+    position: relative;
+    width: 40%;
+    background-color: #8F9EF0;
+    border-radius: 30px;
+    margin-inline: auto;
+    margin-top: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.heading{
+    position: relative;
+    font-size: 2rem;
+    font-weight: 550;
+    color: white;
+    margin: 25px;
+}
+.password{
+    position: relative;
+    width: 60%;
+    height: 45px;
+    background-color: white;
+    margin: 25px;
+    border-radius: 20px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.password h3{
+    font-weight: 520;
+    font-size: 1.1rem;
+}
+.generate{
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 550;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 25px;
+    cursor: pointer;
+}
+.copy{
+    cursor: pointer;
+}
+@media screen  and (max-width:425px){
+    .cont{
+        width: 90%;
+        padding: 2px;
+    }
+    .heading{
+        font-size: 1.3rem;
+    }
+    .password{
+        width: 85%;
+    }
+    .dispass{
+        font-size: 1rem;
+    }
+    .generate{
+        font-size: 1.1rem;
+    }
+}
