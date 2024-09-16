@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    background-color:black;
+}
 .cont{
     position: relative;
     width: 40%;
