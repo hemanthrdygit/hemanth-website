@@ -43,6 +43,7 @@ body{
 .password h3{
     font-weight: 520;
     font-size: 1.1rem;
+    user-select:none;
 }
 .generate{
     position: relative;
